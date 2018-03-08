@@ -1,0 +1,26 @@
+{
+    "name": "opinodo/cint-library",
+    "description": "Library for easy calling Cint api.",
+    "keywords": ["Cint", "cint-library", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milos Milosevic",
+            "email": "mm@opinodo.com"
+        },
+		{
+            "name": "Stefan Antic",
+            "email": "sa@opinodo.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.4",
+        "guzzlehttp/guzzle": ">=6.0",
+        "orchestra/testbench": "~3.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "Opinodo\\Cint-library\\": "src/"
+        }
+    }
+}
