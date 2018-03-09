@@ -20,7 +20,12 @@
     },
 	"autoload": {
         "psr-4": {
-            "Opinodo\\Cint-library\\": "src/"
+            "Opinodo\\CintLibrary\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     }
 }

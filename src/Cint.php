@@ -1,6 +1,6 @@
 <?php
 
-namespace Opinodo;
+namespace Opinodo\CintLibrary;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Config;
