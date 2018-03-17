@@ -22,5 +22,12 @@
         "psr-4": {
             "Opinodo\\CintLibrary\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Opinodo\\CintLibrary\\CintServiceProvider"
+            ]
+        }
     }
 }
