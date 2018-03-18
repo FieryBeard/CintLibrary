@@ -45,6 +45,6 @@ class PanelistCreated extends Mailable
         return $this->from($this->info['from_email'], $this->info['from_name'])
             ->subject($this->info['subject'])
             ->replyTo($this->info['reply_to_email'], $this->info['reply_to_name'])
-            ->view('mail.email');
+            ->html($this->template);
     }
 }
