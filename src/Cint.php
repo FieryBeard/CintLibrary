@@ -56,8 +56,15 @@ class Cint
 	
 	public function setAuth( Array $option ) 
 	{
-		$this->api_key		= $option['api_key'];
-		$this->api_secret	= $option['api_secret'];
+        if(Config::get('cint.sandbox')) {
+            $this->api_key		= Config::get('cint.sandbox_key');
+            $this->api_secret	= Config::get('cint.sandbox_secret');
+
+        }
+        else {
+            $this->api_key		= $option['api_key'];
+            $this->api_secret	= $option['api_secret'];
+        }
 	}
 	
 	public function getPanel()
