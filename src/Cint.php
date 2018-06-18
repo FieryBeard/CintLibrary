@@ -95,6 +95,13 @@ class Cint
 		return $response ? $response['panelist'] : FALSE;
 	}
 
+    public function patchPanelist( $panelist_id, $data )
+    {
+        $response = $this->request( 'PATCH', 'panels/' . $this->api_key . '/panelists/' . $panelist_id, $data );
+
+        return $response ? TRUE : FALSE;
+    }
+
     public function getVariables( $panelist_id )
     {
         $response = $this->request( 'GET', 'panels/' . $this->api_key . '/panelists/' . $panelist_id . '/variables');
