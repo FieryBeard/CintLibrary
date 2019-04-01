@@ -1,16 +1,12 @@
 {
-    "name": "opinodo/cint-library",
+    "name": "fierybeard/cint-library",
     "description": "Library for easy calling Cint api.",
     "keywords": ["Cint", "cint-library", "package"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Milos Milosevic",
-            "email": "mm@opinodo.com"
-        },
-		{
-            "name": "Stefan Antic",
-            "email": "sa@opinodo.com"
+            "name": "Dmitriy Denisov",
+            "email": "dm.denisov.mail@gmail.com"
         }
     ],
     "require": {
@@ -20,13 +16,13 @@
     },
 	"autoload": {
         "psr-4": {
-            "Opinodo\\CintLibrary\\": "src/"
+            "FireBeard\\CintLibrary\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Opinodo\\CintLibrary\\CintServiceProvider"
+                "FireBeard\\CintLibrary\\CintServiceProvider"
             ]
         }
     }
