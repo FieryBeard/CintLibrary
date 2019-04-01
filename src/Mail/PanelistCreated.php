@@ -1,6 +1,6 @@
 <?php
 
-namespace Opinodo\CintLibrary\Mail;
+namespace FieryBeard\CintLibrary\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

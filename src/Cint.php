@@ -1,6 +1,6 @@
 <?php
 
-namespace Opinodo\CintLibrary;
+namespace FieryBeard\CintLibrary;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Config;

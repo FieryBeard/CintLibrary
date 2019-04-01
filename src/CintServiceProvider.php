@@ -1,6 +1,6 @@
 <?php
 
-namespace Opinodo\CintLibrary;
+namespace FieryBeard\CintLibrary;
 
 use Illuminate\Support\ServiceProvider;
 

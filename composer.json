@@ -1,5 +1,7 @@
 {
     "name": "fierybeard/cint-library",
+    "version": "dev-master",
+    "minimum-stability": "stable",
     "description": "Library for easy calling Cint api.",
     "keywords": ["Cint", "cint-library", "package"],
     "license": "MIT",
@@ -16,7 +18,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "FireBeard\\CintLibrary\\": "src/"
+            "FieryBeard\\CintLibrary\\": "src/"
         }
     },
     "extra": {
